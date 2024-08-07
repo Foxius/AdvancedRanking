@@ -1,5 +1,6 @@
 ### AdvancedRanking Plugin
 ![logo](https://cdn.modrinth.com/data/cached_images/298be919e678d1ca8c3fbe27633f7c89cbda06a1.png)
+
 **Overview:**
 AdvancedRanking is a comprehensive Minecraft plugin that provides a detailed player ranking system based on configurable ratings. Players can rate each other, and the ratings are stored in a database for persistence. The plugin includes a GUI for easy interaction and supports PlaceholderAPI for dynamic placeholders.
 
