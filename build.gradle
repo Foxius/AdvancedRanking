@@ -23,6 +23,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'commons-io:commons-io:2.16.1'
+
     compileOnly "io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT"
     compileOnly 'me.clip:placeholderapi:2.10.9'
     implementation 'org.bstats:bstats-bukkit:3.0.2'
