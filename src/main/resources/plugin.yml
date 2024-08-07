@@ -1,0 +1,27 @@
+name: AdvancedRanking
+version: "1.14"
+main: org.advrank.advancedranking.AdvancedRanking
+api-version: '1.20'
+prefix: Advanced Ranking
+load: STARTUP
+authors: [saikonohack]
+depend: [AdvancedCore]
+description: Plugin for adding a social rating system
+website: saikonohack.me
+commands:
+  ranking:
+    description: Open the ranking GUI
+    usage: /<command>
+  profile:
+    description: Show your current rating
+    usage: /<command>
+  setrank:
+    description: Set the rank of a player
+    usage: /<command> <player> <rank>
+permissions:
+  advancedranking.use:
+    description: Allows a player to use the ranking system
+    default: true
+  advancedranking.setrank:
+    description: Allows a player to set the rank of another player
+    default: op

@@ -1,0 +1,6 @@
+key: ""
+buttons:
+  increase: "Увеличить рейтинг"
+  decrease: "Уменьшить рейтинг"
+cooldown_minutes: 1440
+use_resourcepack: false
